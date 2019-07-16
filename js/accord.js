@@ -6,4 +6,6 @@ $('#pay1').on('click', clickAccord)
   
 $('#pay2').on('click', clickAccord)
 
+$('#pay3').on('click', clickAccord)
+
 clickAccord()

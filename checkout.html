@@ -209,37 +209,77 @@
 										<div class="panel-heading">
 											<h4 class="panel-title payment_item radio-lab">
 												<label for='pay1' style='width: 350px;' class="radion_btn">
-													<input class="active radio-lab" type='radio' id='pay1' name='payoption' value='paystack' required />
-													<span class="radio-lab">Paystack</span>
+													<input class="active radio-lab" type='radio' id='pay1' name='payoption' 
+														value='bitcoin' required />
+													<span class="radio-lab">Bitcoin <span class="small-text">using bitcoin.com</span></span>
 													<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></a>
 													<div class="check"></div>
 												</label>
 											</h4>
-											<img src="img/payimage.png" alt="paystack logo" class="paylogo float-right">
+											<img src="img/payimage.png" alt="bitcoin logo" class="paylogo float-right">
 										</div>
 										<div id="collapseOne" class="panel-collapse collapse-show body-el">
 											<div class="panel-body body-con">
-												<p class="body-p">Pay 60,000 with paystack</p>
-												<p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+												<p class="body-p text-center">Follow the steps below to pay through bitcoin.com</p>
+												<ol class="payment-steps">
+													<li>Go to <a href="https://bitcoin.com" target="_blank">bitcoin.com</a>'s website</li>
+													<li>Locate the "Buy Bitcoin" box on the homepage</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Select the "Bitcoin Core" option</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Copy your btc address generated on our platform</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Paste the copied address in the "Wallet address" field on the bitcoin.com's website</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Select the amount in USD</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Click the button and proceed to pay</li>
+														<img src="img/payment-box.jpg" alt="payment box" class="payimage img-fluid">
+													<li>Input your card details and make payment</li>
+													<li>Send us confirmation to our email or chat with us to verify</li>
+												</ol>
 											</div>
 										</div>
 									</div>
+
 									<div class="panel panel-default">
 										<div class="panel-heading">
 											<h4 class="panel-title payment_item radio-lab">
 												<label for='pay2' style='width: 350px;' class="radion_btn">
-													<input type='radio' id='pay2' name='payoption' value='flutterwave' required checked/>
-													<span class="radio-lab">Flutterwave</span>
+													<input type='radio' id='pay2' name='payoption' value='bitcoin' required checked/>
+													<span class="radio-lab">Bitcoin <span class="small-text">using your personal wallet</span></span>
 													<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></a>
 													<div class="check"></div>
 												</label>
 											</h4>
-											<img src="img/payimage.png" alt="paystack logo" class="paylogo float-right">
+											<img src="img/payimage.png" alt="bitcoin logo" class="paylogo float-right">
 										</div>
 										<div id="collapseTwo" class="panel-collapse collapse body-el">
 											<div class="panel-body body-con">
-												<p class="body-p">Pay 60,000 with flutterwave</p>
-												<p>Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+												<p class="body-p text-center">From your personal bitcoin wallet please scan the code below to pay</p>
+												<img src="img/qr-code-sample.jpg" alt="payment box" class="payimage img-fluid qr-image mx-auto d-block">
+												<div class="ad-div">
+													<p class="bit-adbox rounded text-center"><strong>Bitcoin Address:</strong> 0xfca65258989debceff40122</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title payment_item radio-lab">
+												<label for='pay3' style='width: 350px;' class="radion_btn">
+													<input type='radio' id='pay3' name='payoption' value='paypal' required checked/>
+													<span class="radio-lab">Paypal</span>
+													<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"></a>
+													<div class="check"></div>
+												</label>
+											</h4>
+											<img src="img/payimage.png" alt="paypal logo" class="paylogo float-right">
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse body-el">
+											<div class="panel-body body-con">
+												<p class=" body-p text-center">Chat with us to find out how to pay using Paypal</p>
 											</div>
 										</div>
 									</div>
@@ -292,9 +332,9 @@
 		<!--================End Checkout Area =================-->
 		
 		<!--================Start Loader Ring=================-->
-		<div class="pre-loader">
+		<!-- <div class="pre-loader">
 			<div class="loader"></div>
-		</div>
+		</div> -->
 		<!--================End Loader Ring=================-->
         
         <!--================ start footer Area  =================-->	

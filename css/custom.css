@@ -1,3 +1,4 @@
+
 /* Banner & Background */
 
 .banner_area .banner_inner {
@@ -461,11 +462,43 @@
   padding-top: 7px;
 }
 
+.small-text {
+  font-weight: 400;
+  font-size: .8em;
+}
+
 .paylogo {
   width: 2rem;
   margin-top: -42px;
   margin-right: 40px;
   margin-left: 40px;
+}
+
+.payment-steps>li {
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+img.payimage {
+  padding-top: 30px;
+}
+
+img.qr-image {
+  width: 200px;
+}
+
+div.ad-div {
+  display: flex;
+  justify-content: center;
+}
+
+p.bit-adbox {
+  width: auto;
+  border: 2px solid rgb(214, 214, 214);
+  margin-top: 40px;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 1em;
 }
 
 .body-el {
