@@ -1,0 +1,32 @@
+/* Loader container */
+.pre-loader {
+    background: rgba(32, 32, 32, 0.1);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+/* Loader Settings */
+.loader {
+    border: 10px solid;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-color: rgba(134, 65, 230, 0.8) transparent;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}

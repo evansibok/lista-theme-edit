@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Accordion</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css"> 
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/accord.css">
+    </head>
+    <body>
+
+        <div class="row d-flex justify-content-center" style="margin-top: 50px;">
+            <div class="col-lg-8">
+                <h3>Billing Details</h3>
+                <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                    <div class="col-md-6 form-group p_star">
+                        <input type="text" class="form-control" id="first" name="name">
+                        <span class="placeholder" data-placeholder="First name"></span>
+                    </div>
+                    <div class="col-md-6 form-group p_star">
+                        <input type="text" class="form-control" id="last" name="name">
+                        <span class="placeholder" data-placeholder="Last name"></span>
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <input type="text" class="form-control" id="company" name="company" placeholder="Company name">
+                    </div>
+                    <div class="col-md-12 form-group p_star">
+                        <input type="text" class="form-control" id="add1" name="add1">
+                        <span class="placeholder" data-placeholder="Address line 01"></span>
+                    </div>
+                </form>
+
+                <h3>Payment Details</h3>
+                <!-- <form>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="paymentOne">
+                                <h5 class="mb-0">
+                                    <a class="btn btn-link" data-toggle="collapse" 
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                        <input type="radio" name="payoption" value="paystack">Paystack
+                                    </a>
+                                    <img src="img/payimage.png" class="img-thumbnail float-right" alt="paystack logo">
+                                    
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse-show" aria-labelledby="paymentOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Paystack provides easy payment for all your bills.
+                                </div>
+                            </div>
+
+                            <div class="card-header" id="paymentTwo">
+                                <h5 class="mb-0">
+                                    <a class="btn btn-link" data-toggle="collapse" 
+                                    data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" >
+                                        <input type="radio" name="payoption" value="flutterwave"> Flutterwave
+                                    </a>
+                                    <img src="img/payimage.png" class="img-thumbnail float-right" alt="flutterwave logo">
+                                   
+                                </h5>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="paymentTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Flutter ehya!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form> -->
+
+                <form class="bs-example" action="">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <label for='pay1' style='width: 350px;'>
+                                      <input type='radio' id='pay1' name='payoption' value='paystack' required />
+                                      <span class="radio-space">Paystack</span>
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></a>
+                                    </label>
+                                    <img src="img/payimage.png" alt="paystack logo" class="paylogo float-right">
+                                </h4>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse-show body-el">
+                                <div class="panel-body body-con">
+                                    <p class="body-p">Pay 60,000 with paystack</p>
+                                  <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class=panel-title>
+                                    <label for='pay2' style='width: 350px;'>
+                                      <input type='radio' id='pay2' name='payoption' value='flutterwave' required />
+                                      <span class="radio-space">Flutterwave</span>
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></a>
+                                    </label>
+                                    <img src="img/payimage.png" alt="paystack logo" class="paylogo float-right">
+                                </h4>
+                                
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse body-el">
+                                <div class="panel-body body-con">
+                                    <p class="body-p">Pay 60,000 with flutterwave</p>
+                                  <p>Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+            </div>
+        </div>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/flipclock/timer.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+        <script src="js/accord.js"></script>
+    </body>
+</html>
