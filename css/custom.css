@@ -522,6 +522,41 @@ p.bit-adbox {
   background: #380087;
 }
 
+.cart_inner .table tbody tr.out_button_area .checkout_btn_inner {
+  margin-left: -500px !important;
+}
+
+.carouselControls .carousel-inner {
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+}
+
+.carousel-inner .carousel-indicators .indi-0.active {
+  width: 30px;
+  height: 8px;
+  background: #380087;
+  border-radius: 4px;
+}
+
+.carousel-inner .carousel-indicators .indi-0 {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #e4ecee;
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 300ms linear 0s;
+  margin-top: 45px;
+  margin-bottom: 30px
+}
+
+
+span.carousel-control-prev-icon {
+  /* background: #380087; */
+  border-radius: 4px;
+}
+
 @media (max-width:991px){
 	/* Main Menu Area css
   ============================================================================================ */
